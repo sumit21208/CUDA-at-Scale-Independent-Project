@@ -1,0 +1,10 @@
+./run.sh <image|signal> <path>
+
+./run.sh image data/small_images/sample.jpg
+./run.sh signal data/signals/sample.wav
+
+chmod +x run.sh
+
+git add .
+git commit -m "Initial commit"
+git push origin main
